@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "cgmapi",
+  "description": "The CGM API (Continuous Glucose Monitoring Application Programming Interface) is a vital resource for developers in the healthcare technology field. This API serves as a connector between continuous glucose monitoring devices and software applications, enabling seamless integration of real-time glucose data into healthcare and diabetes management solutions.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinerSimonDev/cgmApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinerSimonDev/cgmApi/issues"
+  },
+  "homepage": "https://github.com/MinerSimonDev/cgmApi#readme"
+}
