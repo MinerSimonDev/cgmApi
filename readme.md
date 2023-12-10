@@ -12,4 +12,4 @@ The CGM API (Continuous Glucose Monitoring Application Programming Interface) is
 For inquiries or support, contact me on discord (username: minersimon)
 
 ## Version
-1.0 pre-alpha - october 9th, 2023
+1.1 beta - dezember 10th, 2023
