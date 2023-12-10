@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cgmApi | v1.0 pre-alpha</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Grimm</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="container-1">
-            <ul>
-                <li>Documentation</li>
-                <li>Examples</li>
-                <li>Contact</li>
-            </ul>
+    <div class="container">
+        <div class="bs">
+            <span id="bloodSugarValue">120</span>
+            <span> mg/dl</span>
         </div>
-        <div class="container-2">
-            <ul>
-                <li>We are not waiting.</li>
-                <li>
-                    <img src="img/">
-                </li>
-            </ul>
+        <hr>
+        <div class="info">
+            <div class="info-1">
+                <img src="icon/clock.png" class="img-1">
+                <span id="time">1 Min</span>
+            </div>
+            <div class="info-2">
+                <img src="icon/date.png" class="img-2">
+                <span id="date">08. 12. 2023 | 22:30</span>
+            </div>
+            <div class="info-3">
+                <img src="icon/delta.png" class="img-3">
+                <span id="delta">-6.5</span>
+            </div>
+            <div class="info-4">
+                <img src="icon/alert.png" class="img-4">
+                <span id="alarm">None</span>
+            </div>
+        </div>
+        <div class="about">
+            <a href="" target="_blank">Discord</a>
+            <span> • </span>
+            <a href="" target="_blank">Github</a>
         </div>
     </div>
     <script src="script.js"></script>
